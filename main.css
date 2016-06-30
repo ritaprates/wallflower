@@ -1,0 +1,198 @@
+/* ----- CSS RESET ----- */
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+margin: 0;
+padding: 0;
+}
+img, fieldset {
+border: 0;
+}
+/* set image max width to 100% */
+img {
+max-width: 100%;
+height: auto;
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+display: block;
+}
+
+@font-face {
+    font-family: 'camptonbold_demo';
+    src: url('fonts/campton-bolddemo-webfont.woff2') format('woff2'),
+         url('fonts/campton-bolddemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'camptonlight_demo';
+    src: url('fonts/campton-lightdemo-webfont.woff2') format('woff2'),
+         url('fonts/campton-lightdemo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('fonts/Futura-Medium.eot') format('weot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'tapstep';
+    src: url('fonts/tapstep.eot') format('weot');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+#main {
+
+    width: 1200px;
+    height: 2000px;
+    position: absolute;
+    display: block;
+    
+}
+
+#title {
+    display: block;
+    width: 800px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+     font-family: 'camptonbold_demo';
+    font-size: 120px;
+    text-align: left;
+    color: #f2717a;
+   
+}
+
+#menu {
+   
+    width: 1000px;
+   height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 800px;
+} 
+
+#menu-music{
+  
+    width: 120px;
+   height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 500px;
+    font-family: 'camptonbold_demo';
+    font-size: 35px;
+    text-align: center;
+    color: #f2717a;
+   border-bottom: 2px;
+     border-color: #a1d2ce;
+  
+
+}
+
+#menu-music:hover {
+    
+    color: #f3614f;
+}
+
+#menu-books{
+ 
+    width: 120px;
+   height: 50px;
+    position: absolute;
+    left: 590px;
+    top: 350px;
+      font-family: 'camptonbold_demo';
+    font-size: 35px;
+    text-align: center;
+    color: #f2717a;
+   
+
+    
+}
+
+#menu-books:hover {
+    
+    color: #f3614f;
+}
+
+
+#menu-tv{
+
+    width: 180px;
+   height: 50px;
+    position: absolute;
+    left: 400px;
+    top: 600px;
+      font-family: 'camptonbold_demo';
+    font-size: 35px;
+    text-align: center;
+    color: #f2717a;
+
+
+    
+}
+
+#menu-tv:hover {
+    
+    color: #f3614f;
+}
+
+
+#menu-movies{
+    
+    width: 120px;
+   height: 50px;
+    position: absolute;
+    left: 850px;
+    top: 450px;
+      font-family: 'camptonbold_demo';
+    font-size: 35px;
+    text-align: center;
+    color: #f2717a;
+
+
+    
+}
+
+#menu-movies:hover {
+    
+    color: #f3614f;
+}
+
+
+
+#titulo {
+    background-image: url(images/site.png);
+    width: 530px;
+    height: 395px;
+    position: absolute;
+    display: block;
+    right: 0px;
+    top: 150px;
+    
+}
+
+
+.centered {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate( -50%);
+}

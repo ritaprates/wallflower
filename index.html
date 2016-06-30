@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <title>the perks of being a wallflower </title>
+<link rel="stylesheet" href="main.css">
+ <script src="jquery/jquery-1.10.2.min.js" type="text/javascript"></script>
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimal-ui"> 
+</head>
+<body>
+    
+<div id="main" class="centered">
+    <div id="title"> Charlie<span style="font-family:Futura-Medium">'</span>s Lists </div>
+    
+   <div id="titulo"></div>  
+
+    <a href="music.html"> <div id="menu-music">Music</div></a>
+    <a href="books.html"> <div id="menu-books">Books</div></a>
+    <a href="tv.html"> <div id="menu-tv">TV Shows</div></a>
+    <a href="movies.html"> <div id="menu-movies">Movies</div></a>
+        
+    </div>
+    
+   
+    
+  
+
+    
+</body>
+ 
+  <script type="text/javascript">
+    $(document).ready(function()
+{
+    $(document).mouseup(function(e)
+    {
+        var subject = $("#menu"); 
+
+        if(e.target.id == subject.attr('id'))
+        {
+            $(".menu").toggleClass( "hide" );
+            $(".menu-bar").toggleClass( "open" );
+        }
+    });
+});
+    $(document).ready(function(){
+  $(".menu-button").click(function(){
+   $(".menu-bar").toggleClass( "open" );
+      $(".menu").toggleClass( "hide" );
+      
+    
+      
+  })
+ })
+      </script>  
+  
+</html>
